@@ -1,0 +1,76 @@
+body {
+  background-image:url(background.jpg);
+  background-size: cover;
+  font-family: "Roboto", Verdana, serif;
+}
+
+.container {
+  margin: auto;
+  width: 750px;
+  height: auto;
+  border-radius: 20px;
+  padding: 70px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Header */
+ .logo {
+   display: block;
+   margin: auto;
+   width: 175px;
+ }
+
+.logo-text {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #00FF00;
+}
+
+
+/* Menu navigazione */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00FF00;
+  text-align: center;
+  height: 40px;
+}
+button {
+  margin: 2px;;
+}
+
+/* Nome e stato carica */
+span{
+  font-weight: bold;
+}
+
+main > div {
+  color:white;
+}
+
+.nome-via:before {
+  content: "\21A6";
+}
+
+.rettangolo {
+ display: inline-block;
+ height: 25px;
+ border-radius: 5px;
+}
+
+.rettangolo.giallo {
+  background-color: orange;
+  width: 37%;
+}
+
+.rettangolo.verde {
+  background-color: #32CD32;
+  width: 60%;
+}
+
+.rettangolo.rosso {
+  background-color: darkred;
+  width: 15%;
+}
